@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Great Vibes";
+    src: url("../fonts/GreatVibes-Regular.otf");
+}
+
+body {
+   text-align: center;
+}
+
+.svg {
+  width: 50%;
+  height: auto;
+}
+
+#frame {
+   background:url(./img/team-chiru.jpg);
+}
+
+h1 {
+   font-family: "Great Vibes";
+   font-size: 5em;
+}
