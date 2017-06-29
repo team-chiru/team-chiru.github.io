@@ -1,0 +1,34 @@
+{
+  "name": "team-chiru.github.io",
+  "version": "1.0.0",
+  "description": "team-chiru presentation",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server -p 9001",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-chiru/team-chiru.github.io.git"
+  },
+  "keywords": [
+    "team-chiru",
+    "git",
+    "io"
+  ],
+  "author": "team-chiru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/team-chiru/team-chiru.github.io/issues"
+  },
+  "homepage": "https://github.com/team-chiru/team-chiru.github.io#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.10.0",
+    "webpack": "^3.0.0"
+  }
+}
