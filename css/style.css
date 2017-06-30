@@ -7,16 +7,26 @@ body {
    /*text-align: center;*/
 }
 
-body h3 {
+body h3{
   position: relative;
   z-index: 2;
-  margin-left: 200px;
+  margin-left: 20px;
   color: #6EFCBB;
   font-weight: bold;
-  font-size: 42pt;
+  font-size: 40pt;
   font-family: sans-serif;
   text-shadow: 4px 4px 0px #4AB18E;
   line-height: 120px;
+}
+
+body a{
+  z-index: 2;
+  margin-left: 0px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size:30pt;
+  font-family: sans-serif;
+  text-shadow: 4px 4px 0px #4AB18E;
 }
 
 .svg {
@@ -31,18 +41,30 @@ body h3 {
 
    height:300px;
    width: 350px;
+
    border: 2px solid;
    border-radius: 25px;
+
+   box-shadow: 10px 10px 10px #888888;
 }
 
-h1 {
-   font-family: "Great Vibes";
-   font-size: 5em;
+#navbar{
+  background-color: #B1D4B6 !important;
+  height: 50px !important;
 }
 
-a{
-  font-family: "Great Vibes";
+#navbar a {
+  z-index: 2;
+  margin-left: 0px;
+  padding-bottom: 20px ;
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size:24pt;
+  font-family: sans-serif;
+  text-shadow: 4px 4px 0px #4AB18E;
+
 }
+
 
 .hero {
 				background: #eee;
