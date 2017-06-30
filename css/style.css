@@ -10,15 +10,19 @@ body {
 body h3{
   position: relative;
   z-index: 2;
-  margin-left: 20px;
+  margin-left: 0px;
   color: #6EFCBB;
   font-weight: bold;
   font-size: 40pt;
   font-family: sans-serif;
+
   text-shadow: 4px 4px 0px #4AB18E;
   line-height: 120px;
+  margin-bottom: 0px !important;
+
 }
 
+/*
 body a{
   z-index: 2;
   margin-left: 0px;
@@ -27,7 +31,18 @@ body a{
   font-size:30pt;
   font-family: sans-serif;
   text-shadow: 4px 4px 0px #4AB18E;
+} */
+
+.marginleft_name{
+  margin-left: 22px;
 }
+
+.info{
+   margin-top: -20px;
+   width: 350px;
+   text-align: center;
+}
+
 
 .svg {
   width: 50%;
@@ -48,6 +63,36 @@ body a{
    box-shadow: 10px 10px 10px #888888;
 }
 
+#frame_vlnk {
+   background:url(../img/vlnk.jpg) !important;
+   background-repeat: no-repeat !important;
+   background-size:100% !important;
+
+   height:350px;
+   width: 350px;
+
+   border: 2px solid;
+   border-radius: 25px;
+
+   box-shadow: 10px 10px 10px #888888;
+}
+
+#frame_tower {
+   background:url(../img/tower.jpg) !important;
+   background-repeat: no-repeat !important;
+   background-size:100% !important;
+
+   height:375px;
+   width: 350px;
+
+   border: 2px solid;
+   border-radius: 25px;
+
+   box-shadow: 10px 10px 10px #888888;
+}
+
+
+
 #navbar{
   background-color: #B1D4B6 !important;
   height: 50px !important;
@@ -64,6 +109,11 @@ body a{
   text-shadow: 4px 4px 0px #4AB18E;
 
 }
+
+#navbar a:hover {
+  background-color: #6EFCBB;
+}
+
 
 
 .hero {
